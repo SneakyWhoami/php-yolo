@@ -22,8 +22,8 @@ Setup
 - install or upgrade to ubuntu focal (optional but assumed)
 - install imagemagick-6.q16 or similar from repository (only for `display` command used in script)
 - ensure you have php7.4 CLI - you will need ffi (to detect) and gd (to draw), but I think they're enabled by default
-- install darknet from repository
-- clone the repository
+- install darknet from apt repository
+- clone this git repository
 - `mkdir cfg data out`
 - wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/coco.data into cfg directory
 - https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg into cfg
